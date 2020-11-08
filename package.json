@@ -1,0 +1,9 @@
+{
+  "name": "twitter-bots",
+  "version": "1.0.0",
+  "description": "A lightweight shell for Twitter botmaking",
+  "main": "index.js",
+  "repository": "https://github.com/meetlily/twitter-bots",
+  "author": "Meetlily Advertising (Eddie Villanueva)",
+  "license": "MIT"
+}
