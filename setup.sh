@@ -5,7 +5,7 @@ echo "Creating virtual env - .venv"
 python3 -m venv .venv
 
 echo "sourcing virtual env - .venv"
-source .venv/bin/activate
+source .venv/Scripts/activate
 
 # Create a directory to put things in
 echo "Creating 'setup' directory"
@@ -13,7 +13,7 @@ mkdir setup
 
 # Move the relevant files into setup directory
 echo "Moving function file(s) to setup dir"
-cp sparrow.py setup/
+cp tweet.py setup/
 cp ssm_secrets.py setup/
 cd ./setup
 

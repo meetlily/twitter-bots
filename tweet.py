@@ -31,12 +31,12 @@ def follow_someone(screen_name):
     twitter.create_friendship(screen_name=screen_name)
 
 
-def follow_fernando():
+def follow_meetlily():
     follow_someone("ThePSF")
 
 
 def like_tweet(tweet_id):
-    twitter.create_favorite(id=1288814056900444160)
+    twitter.create_favorite(id=1325485522500792320)
 
 
 def like_a_punny_tweet():

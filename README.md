@@ -21,6 +21,8 @@ done before working with this repository.
 
    This should be the case for all modern operating systems.
 
+   pip install zip
+
 2. Install boto3
    If you don't have boto3 you can install it
    with pip. This command should work:
